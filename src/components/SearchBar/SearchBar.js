@@ -26,11 +26,11 @@ const SearchBar = (props) => {
             <br></br>
             {shouldDisplayButton && <button onClick={handleClear}>Clear</button>}
 
-            <ol type="1" >
+ 
                 {filteredProducts.map((product) => {
-                    return <li key={product}>{product}</li>;
+                    return <div key={product}>{product}</div>;
                 })}
-            </ol>
+
         </div>
     );
 };
