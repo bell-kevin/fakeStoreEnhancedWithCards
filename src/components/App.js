@@ -14,7 +14,7 @@ const App = () => {
                     return product.title + " " + product.price + " " + product.description + " " + product.image;
             })
             setProductsState(newProductsState);
-        }, []);
+        }, 500);
     }, []);
 
     const hasProducts = productsState.length > 0;
