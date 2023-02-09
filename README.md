@@ -16,13 +16,13 @@ Here is an example of searching for text typed in lowercase that matches against
 
 ![FakeStoreResult-2.PNG](https://github.com/bell-kevin/fakeStoreEnhancedWithCards/blob/main/readMePictures/FakeStoreResult-2.PNG)
 
-Task A: Getting Started
+## Task A: Getting Started
 
 Make a copy of the project from the video tutorial. Clean it up by removing the Button components. Remove any code in App.js and SearchBar.js files that refers to the Buttons. Remove any code that was commented out as the tutorial progressed. This will give you a clean starting point.
 
  
 
-Task B: Some Changes
+## Task B: Some Changes
 
 In the index.html file in the public folder, change the title tag's contents to "Fake Store Products".
 
@@ -48,7 +48,7 @@ The input selector needs to set width to 20%, font-size to 1.2rem, and padding t
 
  
 
-Task C: Adding case-insensitivity to the Search function
+## Task C: Adding case-insensitivity to the Search function
 
 In the video tutorial, any search string has to match exactly what is found in the title. If you want to find "laptop", which is in the first title (see above), you have to type "Laptop" with an initial uppercase letter, not "laptop". Make the search insensitive to the letter case, so that you can type "laptop" and get the same results as when you type "Laptop". The easiest way to do this is to convert both the title and the search term to all lowercase letters when filtering the array of products. Both terms need to include "toString().toLowerCase()". This doesn't change the stored data, just changes it temporarily for the filtering test.
 
@@ -56,7 +56,7 @@ Also, add a placeholder attribute to the input tag that says "Search Products". 
 
  
 
-Task D: Retrieving More Data about Products
+## Task D: Retrieving More Data about Products
 
 In the App.js file, the useEffect() method fetches data from the FakeStore API, and returns the product title only. In this project, you need to return the entire object for each product. Instead of mapping the JSON array to get only the title to return, simply set the products array to the data from the fetch. The useEffect hook should be this:
 
@@ -66,7 +66,7 @@ In the code from the video tutorial, in the second "then", it uses an arrow func
 
  
 
-Task E: Adding Cards
+## Task E: Adding Cards
 
 Using cards for displaying discrete chunks of data is a common practice. In the Components folder, create a new folder "Card". In the Card folder, create a file "Card.js". Add in the standard beginning point -- if you have installed the extension "ES7 React/Redux/GraphGL/React-Native snippets", type "rafce" and enter to get that template. It will insert this code:
 
@@ -80,7 +80,7 @@ In the Card.js file, add the prop for the products. In the return, map that arra
 
  
 
-Task F: Adding Style
+## Task F: Adding Style
 
 In the video tutorial, you used a "global.css" file in the "styles" folder. That's one way of storing the style information, putting css files in the styles folder. Another way is to create a folder for each component in the "components" folder, and store the JS file and the CSS file for that component in that folder. The component becomes more reusable and portable to other projects. Here, you will do that. Create a file in the Card folder named "Card.css". Import it into the "Card.js" file.
 
