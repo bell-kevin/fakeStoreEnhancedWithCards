@@ -98,6 +98,12 @@ When complete, the page should display all of the products in separate cards as 
 
 Submission: Zip the 2 screenshots and the root folder for the project together, and submit the single zipped folder.
 
+![p](https://github.com/bell-kevin/fakeStoreEnhancedWithCards/blob/main/outputScreenshots/FakeStore.PNG)
+
+![p](https://github.com/bell-kevin/fakeStoreEnhancedWithCards/blob/main/outputScreenshots/fakeStoreLaptop.PNG)
+
+![p](https://github.com/bell-kevin/fakeStoreEnhancedWithCards/blob/main/outputScreenshots/fakeStoreSearch.PNG)
+
 == We're Using GitHub Under Protest ==
 
 This project is currently hosted on GitHub.  This is not ideal; GitHub is a
