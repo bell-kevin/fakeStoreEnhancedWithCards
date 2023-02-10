@@ -30,7 +30,6 @@ const SearchBar = (props) => {
             <br></br>
             {shouldDisplayButton && <button onClick={handleClear}>Clear</button>}
             <Card products={filteredProducts} />
-
         </div>
     );
 };
